@@ -16,7 +16,5 @@
 	}
 
 	// Closing the stream
-	if ($files){ 
-		pclose($fp);
-	}
+	pclose($fp);
 ?>
